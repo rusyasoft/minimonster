@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/exercise_name"
+            android:textSize="40dp"
+            android:text="Minimonster"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weight_spinner"
+            android:layout_marginBottom="30dp"/>
+        <TextView
+            android:text="count :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/balance"
+            android:textSize="20dp"
+            android:gravity="center_horizontal|bottom"/>
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="150dp"
+            android:text="0"/>
+        <ToggleButton
+            android:id="@+id/tBtn_counter"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textOn="stop"
+            android:textOff="start"
+            android:checked="false"
+            android:textColor="@color/black"
+            android:background="@drawable/toggle"/>
+    </LinearLayout>
+</LinearLayout>

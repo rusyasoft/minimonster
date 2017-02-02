@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MinimonsterV3</string>
+
+    <string name="device_1_uuid">83692593-7bab-42af-b186-ae389b44a01f</string>
+    <string name="device_1_exer">mbenchp</string>
+    <string name="device_1_notify">8661e735-70c1-4418-ba55-b661b5f094bd</string>
+</resources>
